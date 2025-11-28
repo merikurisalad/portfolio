@@ -1,0 +1,67 @@
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 40;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.topnav {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+
+ .topnav a {
+    color: black;
+    text-decoration: none;
+ } 
+
+.topnav a:hover {
+    text-decoration-line: underline;
+}
+
+.container {
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#home, #bio, #projects, #contact {
+    margin-bottom: 50px; /* vertical spacing */
+  }
+
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 75px;
+    
+}
+
+#main-img {
+    margin-right: 100px;
+}
+
+#bio-img {
+    margin-left: 100px;
+}
+
+.description {
+    text-align: center;
+    font-size: 20px;
+}
+
+#bio {
+    display: flex;
+    flex-direction: row;
+}
