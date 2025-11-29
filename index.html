@@ -1,58 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeemin Kim</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeemin Kim | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <div class="topnav">
+        <nav class="topnav">
             <a href="#home">Home</a>
             <a href="#bio">Bio</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-        </div>
+        </nav>
     </header>
-        <div class="container">
-            <div id="home">
-                <img id="main-img" src="/assets/Mood.gif" max width=500px alt="Summary of my life">
-                <p class="description">
-                    Hi there! I'm a product manager with a background in Computer Science and Business Administration.
-                </p>
+    
+    <main class="container">
+        <!-- Home -->
+        <section id="home">
+            <img src="assets/Mood.gif" alt="Summary of my life" class="hero-img" />
+            <p class="description">
+                Hi there! I'm <strong>Jeemin</strong>, a product manager with a background in Computer Science and Business Administration. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                
+            </p>
+        </section>
+        
+        <!-- Bio -->
+        <section id="bio">
+            <h2>About Me</h2>
+            <p class="description">
+                I combine technical knowledge and business insight to guide product strategy and execution. My experience ranges from software development to startups, with a focus on delivering what users really want.
+            </p>
+            <p class="description">
+                Praesent arcu nulla, consequat sit amet tincidunt et, aliquet maximus enim. Sed a massa vitae leo pulvinar gravida non sit amet odio. Aliquam vel congue felis. Cras ex quam, aliquam vitae porta at, dignissim id tortor. Aliquam scelerisque vel leo vel faucibus. Curabitur nunc urna, faucibus in arcu vel, eleifend feugiat eros. Integer vel libero ac justo iaculis aliquam. Vivamus efficitur vehicula luctus. 
+            </p>
+        </section>
+        
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Experience & Projects </h2>
+            
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="assets/Elmo.jpg" alt="Me" class="bio-img" />
+                </div>
+                <div class="project-info">
+                    <h3>Static Web App Deployment with AWS S3 + CloudFront</h3>
+                    <p> Deployed a fast, cost-efficient static website using AWS S3 hosting and CloudFront CDN, delivering a globally distributed static app with faster load times through edge caching.</p>
+                    <a href="projects/aws-portfolio.html" class="btn">Learn more →</a>
+                </div>
             </div>
-
-            <div id="bio">
-                <p class="description">
-                    Here you can read a more in-depth exploration on some of the projects I have worked on. TESTING GITHUB ACTIONS AGAIN
-                </p>
-                <img id="bio-img" src="/assets/Elmo.jpg" max width="500px" margin="20px" alt="Nuclear self">
-            </div>
-
-            <div id="experience">
-                <h2>Projects & Work</h2>
-                <h3>Work 1</h3>
-                <p>
-                    Praesent arcu nulla, consequat sit amet tincidunt et, aliquet maximus enim. Sed a massa vitae leo pulvinar gravida non sit amet odio. Aliquam vel congue felis. Cras ex quam, aliquam vitae porta at, dignissim id tortor. Aliquam scelerisque vel leo vel faucibus. Curabitur nunc urna, faucibus in arcu vel, eleifend feugiat eros. Integer vel libero ac justo iaculis aliquam. Vivamus efficitur vehicula luctus. 
-                </p>
-                <h3>Work 2</h3>
-                <p>
-                    Praesent arcu nulla, consequat sit amet tincidunt et, aliquet maximus enim. Sed a massa vitae leo pulvinar gravida non sit amet odio. Aliquam vel congue felis. Cras ex quam, aliquam vitae porta at, dignissim id tortor. Aliquam scelerisque vel leo vel faucibus. Curabitur nunc urna, faucibus in arcu vel, eleifend feugiat eros. Integer vel libero ac justo iaculis aliquam. Vivamus efficitur vehicula luctus. 
-                </p>
-                <h3>Work 3</h3>
-                <p>
-                    Praesent arcu nulla, consequat sit amet tincidunt et, aliquet maximus enim. Sed a massa vitae leo pulvinar gravida non sit amet odio. Aliquam vel congue felis. Cras ex quam, aliquam vitae porta at, dignissim id tortor. Aliquam scelerisque vel leo vel faucibus. Curabitur nunc urna, faucibus in arcu vel, eleifend feugiat eros. Integer vel libero ac justo iaculis aliquam. Vivamus efficitur vehicula luctus. 
-                </p>
-            </div>
-
-    <div id="contact">
-        <h2>Contact</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    </div>
-</div>
-</body>
-</html>
+            
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="assets/Elmo.jpg" alt="Me" class="bio-img" />
+                </div>
+                <div class="project-info">
+                    <h3>OinC: Faster, Safer, Healthier</h3>
+                    <p>Directed a animal-health technology startup, introducing an innovative method for safer vaccinations. </p>
+                    <a href="projects/oinc-startup.html" class="btn">Learn more →</a>
+                </div>
+            </div>  
+            
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="assets/Elmo.jpg" alt="Me" class="bio-img" />
+                </div>
+                <div class="project-info">
+                    <h3>Open-world adventure game with Tidepool Games</h3>
+                    <p>Developed <italics>Big Country</italics> with Tidepool Games and the Centre of Digital Media, focusing on the AI companion dog and player–dog interactions.</p>
+                    <a href="projects/bigcountry-game.html" class="btn">Learn more →</a>
+                </div>
+            </div>  
+            
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="assets/Elmo.jpg" alt="Me" class="bio-img" />
+                </div>
+                <div class="project-info">
+                    <h3>Med-Fidelity Prototype of Yelp Interface</h3>
+                    <p> Redesigned Yelp's interface to improve usability and user satisfaction. 
+                        <a href="projects/med-fidelity-yelp.html" class="btn">Learn more →</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Contact -->
+            <section id="contact">
+                <h2>Contact</h2>
+                <div class="contact-icons">
+                    <a href="https://github.com/merikurisalad" target="_blank">
+                        <img src="assets/contact-github.png" alt="GitHub" class="contact-icon" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/kim-jeemin" target="_blank">
+                        <img src="assets/contact-linkedin.png" alt="LinkedIn" class="contact-icon" />
+                    </a>
+                </div>
+                
+                <p class="contact-email">✉️ jeeminkimy@gmail.com</p>
+            </section>
+        </main>
+    </body>
+    </html>
+    
