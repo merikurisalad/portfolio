@@ -274,7 +274,7 @@ header {
         text-align: center;
     }
 
-    .project-image {
+    .project-image img {
         max-width: 90%;
         display: block;
         margin: 0 auto;
