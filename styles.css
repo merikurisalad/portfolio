@@ -274,6 +274,12 @@ header {
         text-align: center;
     }
 
+    .project-image {
+        max-width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
     .about-wrapper {
         flex-direction: column;
         text-align: center;
