@@ -21,7 +21,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     font-family: 'Nunito Sans', sans-serif;
     background-color: var(--ivory);
     color: var(--text-dark);
@@ -260,6 +261,47 @@ header {
 .contact-email {
     font-size: 16px;
 }
+
+.indented-list {
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+/* ================================================================
+   PROJECT PAGE
+=================================================================== */
+.project-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.custom-hr {
+    border: none;
+    height: 1px;
+    background-color: #cccccc;
+    margin: 20px 0;
+}
+
+.indented-list {
+    margin: 1rem 0 1rem 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.project-container img {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 1.5rem auto;
+}
+
+.project-container iframe {
+    display: block;
+    width: 90%;
+    aspect-ratio: 16/9;
+    margin: 1.5rem auto;
+}
+
 
 /* ================================================================
    RESPONSIVE
